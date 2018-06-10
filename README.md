@@ -48,7 +48,7 @@ we can now find GAF heapmap images in a new child directory _**/output_img**_!
 ## Functions
 ```python
 def GenerateGAF(all_ts, window_size, rolling_length, fname,
-                normalize_window_scaling=1.0, method='summation', scale='\[0,1]'):
+                normalize_window_scaling=1.0, method='summation', scale='[0,1]'):
   ...
   
 def PlotHeatmap(all_img, save_dir='output_img'):
