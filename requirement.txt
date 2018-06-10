@@ -1,0 +1,5 @@
+numpy
+matpltlib
+tqdm
+colorama
+pandas
