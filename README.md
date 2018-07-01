@@ -11,7 +11,7 @@ this is an simple example:
 import numpy as np
 from series2gaf import GenerateGAF
 
-# create a random series with 200 numbers
+# create a random sequence with 200 numbers
 # all numbers are in the range of 50.0 to 150.0
 random_series = np.random.uniform(low=50.0, high=150.0, size=(200,))
 
@@ -60,7 +60,7 @@ def PlotHeatmap(all_img, save_dir='output_img'):
 &nbsp;&nbsp;&nbsp;&nbsp;the time series we want to transform.
 
 - _**window_size: int**_  
-&nbsp;&nbsp;&nbsp;&nbsp;the sliding window size for transforming series into GAF images
+&nbsp;&nbsp;&nbsp;&nbsp;the sliding window size for transforming sequences into GAF images
 
 - _**rolling_length: int**_  
 &nbsp;&nbsp;&nbsp;&nbsp;also known as "stride value" for the sliding window 
@@ -79,8 +79,8 @@ def PlotHeatmap(all_img, save_dir='output_img'):
 
 - _**scale: str, optoinal**_  
 &nbsp;&nbsp;&nbsp;&nbsp;_default: '\[0,1]'_  
-&nbsp;&nbsp;&nbsp;&nbsp;`'[0,1]'` means normalize the series between 0 and 1  
-&nbsp;&nbsp;&nbsp;&nbsp;`'[-1,1]'` means normalize the series between -1 and 1
+&nbsp;&nbsp;&nbsp;&nbsp;`'[0,1]'` means normalize the sequence in the range of 0 and 1  
+&nbsp;&nbsp;&nbsp;&nbsp;`'[-1,1]'` means normalize the sequence in the range of -1 and 1
 
 - _**all_img: numpy.array**_  
 &nbsp;&nbsp;&nbsp;&nbsp;input GAF multi-dimension array
