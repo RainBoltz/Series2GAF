@@ -1,6 +1,6 @@
-numpy
-matpltlib
-tqdm
-colorama
-pandas
-keras>=2.0.3
+numpy>=1.25.0
+matpltlib>=3.8.2
+tqdm>=4.66.1
+colorama>=0.4.6
+pandas>=2.0.2
+keras>=3.0.1
